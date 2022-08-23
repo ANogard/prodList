@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/postgres
+    username: postgres
+    password: #Password
+
+productLoad:
+  path: #Locate FOLDER with *.csv files
+  period: #Use ISO 8601 Durations format
